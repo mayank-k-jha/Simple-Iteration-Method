@@ -1,0 +1,10 @@
+
+	Simple iteration method Algorithm :
+	step1 : let f(x) be an equation,then check for what value of x ,f(x) changes its sign.
+		let at x=value ,f(x) changes its sign.
+	step3 :	now ,find phi(x) in terms of x satisfying the condition that |phi(x)'|<1;
+	step2 : now start iterating over phi(x) with x=value
+		and in each next iteration update x = phi(x);
+	step3 : repeat above till the x current and previous values are not same.		
+	step4 : Let at x = result ,values of phi(x) starts repeating then answer = result.
+	step5 : exit()
